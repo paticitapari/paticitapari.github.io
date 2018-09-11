@@ -14,7 +14,7 @@ summary: These brief instructions will help you get started quickly with the the
 En función a los objetivos del convenio con UNICEF, la unidad de datos, presenta la siguiente propuesta para la construcción de la plataforma de información.
 ## Objetivos de la Plataforma de Información 
 
-### 1. Download the theme
+### 1. Objetivo principal 
 
 First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
