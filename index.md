@@ -10,8 +10,9 @@ summary: These brief instructions will help you get started quickly with the the
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
 ## Introducción 
+”UNICEF efectuará un seguimiento sistemático de sus contribuciones a los resultados tal y como se señala en el marco de recursos y los resultados del programa. Se recopilaran de forma regular datos sobre la niñez. Con miras a apoyar la realización de encuestas, el UNICEF colaborara con el Gobierno y con otras agencias de las Naciones Unidas a fin de facilitar la recopilación de datos y reducir costos, lo que permitirá administrar y utilizar las encuestas de forma más frecuente y eficaz”1.
+En función a los objetivos del convenio con UNICEF, la unidad de datos, presenta la siguiente propuesta para la construcción de la plataforma de información.
 
-Follow these instructions to build the theme.
 
 ### 1. Download the theme
 
