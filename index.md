@@ -12,7 +12,7 @@ summary: These brief instructions will help you get started quickly with the the
 ## Introducción 
 ”UNICEF efectuará un seguimiento sistemático de sus contribuciones a los resultados tal y como se señala en el marco de recursos y los resultados del programa. Se recopilaran de forma regular datos sobre la niñez. Con miras a apoyar la realización de encuestas, el UNICEF colaborara con el Gobierno y con otras agencias de las Naciones Unidas a fin de facilitar la recopilación de datos y reducir costos, lo que permitirá administrar y utilizar las encuestas de forma más frecuente y eficaz”1.
 En función a los objetivos del convenio con UNICEF, la unidad de datos, presenta la siguiente propuesta para la construcción de la plataforma de información.
-
+## Objetivos de la Plataforma de Información 
 
 ### 1. Download the theme
 
