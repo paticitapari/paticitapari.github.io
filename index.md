@@ -1,5 +1,5 @@
 ---
-title: "PLATAFORMA DE INFORMACION"
+title: "PLATAFORMA DE VISUALIZACION DE DATOS"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
