@@ -157,10 +157,10 @@ The sidebar data file uses a specific YAML syntax that you must follow. Follow t
 ```yaml
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: Características
+  version: 2018
   folders:
-  - title: Overview
+  - title: Objetivo
     output: web, pdf
     folderitems:
 
@@ -173,7 +173,7 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Unicef
     output: web, pdf
     folderitems:
 
