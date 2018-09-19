@@ -26,10 +26,10 @@ los objetivos secundarios que se señalan para la Plataforma de Información  so
 * Dotar a los usuarios una herramienta de informacion estadistico, que centralice, administre y publique la
 información Disponible, ya sea esta general o específica, de los diferentes ámbitos de interés..
 * Facilitar el acceso a la información a través de la generación de insumos de interés para tres tipos de usuario:
-## 1. Usuarios Ejecutivo
-## 2. Usuarios Experto
-## 3. Usuarios Funcionario
-### 3. Install Bundler
+* Usuarios Ejecutivo
+* Usuarios Experto
+* Usuarios Funcionario
+* Install Bundler
 
 In case you haven't installed Bundler, install it:
 
