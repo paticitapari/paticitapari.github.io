@@ -227,7 +227,7 @@ entries:
   product: Jekyll Doc Theme
   version: 6.0
   folders:
-  - title: Overview
+  - title: Objetivo
     output: web, pdf
     folderitems:
 
