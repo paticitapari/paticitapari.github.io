@@ -50,9 +50,9 @@ desde cualquier lugar donde se encuentren atrá vez de los dispositivos disponib
 Las características descritas anteriormente poseen un beneficio adicional. La plataforma
 de información permite el aprendizaje de forma económica, en cualquier lugar y en cualquier momento,
 y brinda los siguientes beneficios.
-** Ahora costos
-** Mejora la información al usuario
-** Reduce el tiempo
+* Ahora costos
+* Mejora la información al usuario
+* Reduce el tiempo
 ## Running the site in Docker
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
