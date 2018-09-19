@@ -32,9 +32,6 @@ información Disponible, ya sea esta general o específica, de los diferentes á
 * Install Bundler
 
 ## 3. Características de la Plataforma de Información de Datos
-En este sitio es donde se visualizara las siguientes informaciones atraves del sofware Github y utilizando el sistema
-de control Git:
-### 3.1 Estructura para el Información del Sistema
 Las principales características de una plataforma
 de información son los siguientes:
 * 1. Interoperabilidad
@@ -53,7 +50,12 @@ y brinda los siguientes beneficios.
 * Ahora costos
 * Mejora la información al usuario
 * Reduce el tiempo
-## Running the site in Docker
+## 4. Ventajas e inconvenientes de Plataforma de Informacion
+## Ventajas
+* Facilita la utilización del cualquier lugar del mundo
+* Permite un interface de conexión con varios usuarios
+## Desventajas 
+* mayor esfuezo y dedicacion ya que el plataforma se va actualizar en constantemente
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
 ```
