@@ -60,10 +60,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Acceso directo a información relevante a través de un link dirigido a una App, para los Usuarios
-Ejecutivos, Plataforma de visualización de información clasificada por temas expresada en tablas, gráficos y
-resúmenes, diseñada para los Usuarios Expertos, Matrices de información de indicadores calculados, descargables en formato Excel, cuyo objetivo
-es proveer al Usuario Funcionario de una precisa y mayor cantidad de información.
+    - title: Pas
       url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf
 
