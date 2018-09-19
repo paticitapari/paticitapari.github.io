@@ -8,15 +8,16 @@ summary: These brief instructions will help you get started quickly with the the
 ---
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+## Plataforma de Seguimiento de Indicadores
 
-## 1. Introducción 
+### 1. Introducción 
 
 La plataforma de Información de Datos de Unicef es una herramienta de información estadística que centralizará,
 administrara y publicara datos, para los diferentes tipo de usuarios, además de proporcionar acceso
 directo en la evolución de la información a través del tiempo.
 La visualización de datos se podrá observar a través de gráficos, tablas y cálculo de los indicadores para que
 los ususarios puedan tener mejor comprensión de la información del proyecto
-## 2. Objetivos de la Plataforma de Información 
+### 2. Objetivos de la Plataforma de Información 
 
 ### 2.1. Objetivo principal 
 
