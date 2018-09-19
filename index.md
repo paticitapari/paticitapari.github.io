@@ -31,15 +31,7 @@ información Disponible, ya sea esta general o específica, de los diferentes á
 * Usuarios Funcionario
 * Install Bundler
 
-In case you haven't installed Bundler, install it:
-
-```
-gem install bundler
-```
-
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
-
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
+## 3. Descripción del Plataforma de Información de Datos
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
