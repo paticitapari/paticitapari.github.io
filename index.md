@@ -43,14 +43,16 @@ pueda mostrar los contenidos a través de un link de cómo fueron.
 * 2.Reusabilidad 
 Este tipo de características ofrece la disminución del tiempo de producción y aumenta
 la calidad de los contenidos y permite utilizar contenidos existentes o también pueden ser mejorarlas
-* 3. Accesibilidad 
+* 3.Accesibilidad 
 Los usuarios pueden acceder a la plataforma de información en cualquier momento o
 desde cualquier lugar donde se encuentren atrá vez de los dispositivos disponibles
-* 4. Optimización 
+* 4.Optimización 
 Las características descritas anteriormente poseen un beneficio adicional. La plataforma
 de información permite el aprendizaje de forma económica, en cualquier lugar y en cualquier momento,
 y brinda los siguientes beneficios.
-
+** Ahora costos
+** Mejora la información al usuario
+** Reduce el tiempo
 ## Running the site in Docker
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
