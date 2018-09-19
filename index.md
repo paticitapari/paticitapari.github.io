@@ -51,10 +51,10 @@ y brinda los siguientes beneficios.
 * Mejora la información al usuario
 * Reduce el tiempo
 ## 4. Ventajas e inconvenientes de Plataforma de Informacion
-## Ventajas
+### Ventajas
 * Facilita la utilización del cualquier lugar del mundo
 * Permite un interface de conexión con varios usuarios
-## Desventajas 
+### Desventajas 
 * mayor esfuezo y dedicacion ya que el plataforma se va actualizar en constantemente
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
