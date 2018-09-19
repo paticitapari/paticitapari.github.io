@@ -56,11 +56,14 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-  - title: Installation
+  - title: Productos
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
+    - title: Acceso directo a información relevante a través de un link dirigido a una App, para los Usuarios
+Ejecutivos, Plataforma de visualización de información clasificada por temas expresada en tablas, gráficos y
+resúmenes, diseñada para los Usuarios Expertos, Matrices de información de indicadores calculados, descargables en formato Excel, cuyo objetivo
+es proveer al Usuario Funcionario de una precisa y mayor cantidad de información.
       url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf
 
