@@ -31,11 +31,25 @@ información Disponible, ya sea esta general o específica, de los diferentes á
 * Usuarios Funcionario
 * Install Bundler
 
-## 3. Descripción del Plataforma de Información de Datos
+## 3. Características de la Plataforma de Información de Datos
 En este sitio es donde se visualizara las siguientes informaciones atraves del sofware Github y utilizando el sistema
 de control Git:
 ### 3.1 Estructura para el Información del Sistema
-La estructura general del sistema de Información de detalla de la siguiete forma:
+Las principales características de una plataforma
+de información son los siguientes:
+* 1. Interoperabilidad
+La interoperabilidad ofrece la capacidad de que la plataforma de información
+pueda mostrar los contenidos a través de un link de cómo fueron.
+* 2.Reusabilidad 
+Este tipo de características ofrece la disminución del tiempo de producción y aumenta
+la calidad de los contenidos y permite utilizar contenidos existentes o también pueden ser mejorarlas
+* 3. Accesibilidad 
+Los usuarios pueden acceder a la plataforma de información en cualquier momento o
+desde cualquier lugar donde se encuentren atrá vez de los dispositivos disponibles
+* 4. Optimización 
+Las características descritas anteriormente poseen un beneficio adicional. La plataforma
+de información permite el aprendizaje de forma económica, en cualquier lugar y en cualquier momento,
+y brinda los siguientes beneficios.
 
 ## Running the site in Docker
 
