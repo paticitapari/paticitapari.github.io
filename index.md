@@ -29,7 +29,6 @@ información Disponible, ya sea esta general o específica, de los diferentes á
 * Usuarios Ejecutivo
 * Usuarios Experto
 * Usuarios Funcionario
-* Install Bundler
 
 ## 3. Características de la Plataforma de Información de Datos
 Las principales características de una plataforma
