@@ -9,20 +9,23 @@ summary: These brief instructions will help you get started quickly with the the
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
-## Introducción 
-”UNICEF efectuará un seguimiento sistemático de sus contribuciones a los resultados tal y como se señala en el marco de recursos y los resultados del programa. Se recopilaran de forma regular datos sobre la niñez. Con miras a apoyar la realización de encuestas, el UNICEF colaborara con el Gobierno y con otras agencias de las Naciones Unidas a fin de facilitar la recopilación de datos y reducir costos, lo que permitirá administrar y utilizar las encuestas de forma más frecuente y eficaz”1.
-En función a los objetivos del convenio con UNICEF, la unidad de datos, presenta la siguiente propuesta para la construcción de la plataforma de información.
-## Objetivos de la Plataforma de Información 
+## 1. Introducción 
 
-### 1. Objetivo principal 
+La plataforma de Información de Datos de Unicef es una herramienta de información estadística que centralizará,
+administrara y publicara datos, para los diferentes tipo de usuarios, además de proporcionar acceso
+directo en la evolución de la información a través del tiempo.
+La visualización de datos se podrá observar a través de gráficos, tablas y cálculo de los indicadores para que
+los ususarios puedan tener mejor comprensión de la información del proyecto
+## 2. Objetivos de la Plataforma de Información 
+
+### 2.1. Objetivo principal 
 
 Poner a disposición de los usuarios información dinámica, oportuna, sencilla de entender, transmitir y manejar.
-### 2. Objetivos Secundarios 
-
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+### 2.2 Objetivos Secundarios 
+los objetivos secundarios que se señalan para la Plataforma de Información  son: 
+* Dotar a los usuarios una herramienta de informacion estadistico, que centralice, administre y publique la
+información Disponible, ya sea esta general o específica, de los diferentes ámbitos de interés..
+* Facilitar el acceso a la información a través de la generación de insumos de interés para tres tipos de usuario:
 
 ### 3. Install Bundler
 
