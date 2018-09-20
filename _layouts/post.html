@@ -1,7 +1,10 @@
 {% include header.html %}
-<!-- Main -->
-	<section class="wrapper style1">
-		<div class="container">
+<body>
+{% include nav.html %}
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
 
 			<!-- Blog -->
 				<section>
@@ -12,13 +15,15 @@
 					<div class="row">
 						<div class="8u -2u">
 							<section class="box">
-								<a href="#" class="image left"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
 								{{ page.content }}
 							</section>
 						</div>
 					</div>
 				</section>
 
+			</div>
 		</div>
-	</section>
+	</div>
+</div>
 {% include footer.html %}

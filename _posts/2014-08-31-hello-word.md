@@ -1,14 +1,8 @@
 ---
 title: Ullamco Laboris minim veniam
-featured: /assets/images/pic01.jpg
+featured: /assets/images/pic03.jpg
 layout: post
 ---
 
-<ul class="links">
-	<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-	<li><a href="#">Ornare in hendrerit in lectus</a></li>
-	<li><a href="#">Semper mod quis eget mi dolore</a></li>
-	<li><a href="#">Consequat etiam lorem phasellus</a></li>
-	<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-	<li><a href="#">Semper mod quisturpis nisi</a></li>
-</ul>
+<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

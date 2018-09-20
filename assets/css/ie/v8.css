@@ -1,73 +1,43 @@
 /*
-	Arcana by HTML5 UP
+	Dopetrope by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Form */
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea {
-		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
-	}
-
-/* Image */
-
-	.image {
-		-ms-behavior: url("css/ie/PIE.htc");
-	}
-
-		.image img {
-			position: relative;
-			-ms-behavior: url("css/ie/PIE.htc");
-		}
-
-/* Icon */
-
-	.icon.major {
-		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
-	}
-
-/* Button */
-
+	form input[type=text],
+	form input[type=password],
+	form select,
+	form textarea,
+	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
-	.button {
+	.button,
+	ul.social li a,
+	.icon.featured,
+	#copyright .links,
+	#nav > ul > li > a,
+	.dropotron
+	{
 		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
+		-ms-behavior: url('css/ie/PIE.htc');
 	}
 
-/* Box */
-
-	.box.post .inner {
-		margin-left: 35%;
+	.dropotron.level-0
+	{
+		box-shadow: none !important;
 	}
 
-/* Header */
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
 
-	#nav > ul > li.current:before {
-		display: none;
-	}
-
-/* Dropotron */
-
-	.dropotron {
-		-ms-behavior: url("css/ie/PIE.htc");
-	}
-
-/* Banner */
-
-	#banner {
-		-ms-behavior: url("css/ie/backgroundsize.min.htc");
-	}
-
-/* Wrapper */
-
-	.wrapper.style2 {
-		background: #fdfdfd url("../images/bg01.png");
+	#banner
+	{
+		background-position: auto;
+		background-size: contain;
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
 	}
