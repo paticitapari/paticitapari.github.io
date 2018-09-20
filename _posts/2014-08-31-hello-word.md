@@ -1,5 +1,5 @@
 ---
-title: Ullamco Laboris minim veniam
+title: Repositorio de Boletines
 featured: /assets/images/pic03.jpg
 layout: post
 ---
