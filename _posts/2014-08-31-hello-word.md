@@ -1,6 +1,6 @@
 ---
 title: Repositorio de Boletines
-featured: /assets/images/pic03.jpg
+featured: /assets/images/boletin1.jpg
 layout: post
 ---
 
