@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: Protocolo de uso de la plataforma
 featured: /assets/images/pic02.jpg
 layout: post
 ---
