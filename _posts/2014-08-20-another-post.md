@@ -1,8 +1,10 @@
 ---
-title: Protocolo de uso de la plataforma
+title: Protocolo para el uso de la plataforma
 featured: /assets/images/pic02.jpg
 layout: post
 ---
 
-<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h1>Instrucciones </h1>
+<p>Dado que la *Plataforma de Datos* esta diseñada para proporcionar información, dependiendo del requerimiento del personal de Unicef que lo consulte, es decir: Usuario Ejecutivo, Usuario Experto y Usuario Funcionario.</p>
+<p>La plataforma proporciona al usuario, acceso directo a los campos distinguidos por el tipo de usuario, en la cabecera y cuerpo de la página de inicio. </p>
+<p>Toda la información se encuentra disponible, en la página de inicio además de accesos directos a documentos enlazados de información </p>
