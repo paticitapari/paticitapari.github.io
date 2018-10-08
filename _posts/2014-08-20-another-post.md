@@ -13,4 +13,4 @@ Forma de Uso
 ------------
 <p>Toda la información se encuentra disponible en la página de inicio, además de accesos directos a documentos enlazados de información </p>
 <p>El usuario podrá acceder a toda la información disponible en la plataforma, solo seleccionando con un click la sección que desea consultar o usar para acceder a un tipo de resumen, tabla o cálculo de indicador.</p>
-<p>También el usuario podrá contar con acceso a una App portatil con solo un click en el botón ''App'' que guarda la dirección para consulta directa, habilitada para celulares y tabletas con sistema Android  </p>
+<p>También el usuario podrá contar con acceso a una App portatil con solo un click en el botón ''App'' que guarda la dirección para consulta directa, habilitada para celulares y tabletas con sistema Android</p>
