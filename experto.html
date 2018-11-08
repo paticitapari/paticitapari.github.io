@@ -33,39 +33,19 @@ layout: default
 										sit amet nullam consequat feugiat dolore tempus.
 									</p>
 									<section>
-									  <html>
-  <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['bar']});
-      google.charts.setOnLoadCallback(drawChart);
+									  <div id="bar-chart"></div>
+                                      <div class="svgLegend4">
+                                       <div class="legend4"></div>
+                                      </div>
 
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses', 'Profit'],
-          ['2014', 1000, 400, 200],
-          ['2015', 1170, 460, 250],
-          ['2016', 660, 1120, 300],
-          ['2017', 1030, 540, 350]
-        ]);
+                                     <!-- jQuery -->
+                                     	<script src="{{ site.baseurl }}/assets/js/jquery-1.11.0.min.js"></script>
 
-        var options = {
-          chart: {
-            title: 'Company Performance',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
-          }
-        };
+                                     <!-- d3 Chart -->
+                                     	<script src="{{ site.baseurl }}/assets/js/d3.min.js"></script>
 
-        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
-
-        chart.draw(data, google.charts.Bar.convertOptions(options));
-      }
-    </script>
-  </head>
-  <body>
-    <div id="columnchart_material" style="width: 500px; height: 300px;"></div>
-  </body>
-</html>
+                                      <!-- Custom JS -->
+                                     	<script src="{{ site.baseurl }}/assets/js/barchart.js"></script>
 									</section>
 									
 									<section>
