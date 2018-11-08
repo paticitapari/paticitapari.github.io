@@ -3,7 +3,7 @@ var jsonBarchart;
 
 $.ajax({
   type: "GET",
-  url: "{{ site.baseurl }}/partials/barchart_example.json",
+  url: "{{site.baseurl}}/partials/barchart_example.json",
   async: false,
   success: function(data){
     if (validaJsonBarChart(data) ){
