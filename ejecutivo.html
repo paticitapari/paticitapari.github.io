@@ -38,6 +38,7 @@ layout: default
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['bar']});
+	  google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
@@ -52,7 +53,7 @@ layout: default
         var options = {
           chart: {
             title: 'Calidad',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            subtitle: 'Sales, Expenses',
           }
         };
 
@@ -60,10 +61,32 @@ layout: default
 
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
+	  
+	  
+	  function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
     </script>
+  
   </head>
   <body>
     <div id="barras" style="width: 500px; height: 300px;"></div>
+	 <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
 									</section>
