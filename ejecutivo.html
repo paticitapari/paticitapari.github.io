@@ -51,19 +51,19 @@ layout: default
 
         var options = {
           chart: {
-            title: 'Company Performance',
+            title: 'Calidad',
             subtitle: 'Sales, Expenses, and Profit: 2014-2017',
           }
         };
 
-        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+        var chart = new google.charts.Bar(document.getElementById('barras'));
 
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
   </head>
   <body>
-    <div id="columnchart_material" style="width: 500px; height: 300px;"></div>
+    <div id="barras" style="width: 500px; height: 300px;"></div>
   </body>
 </html>
 									</section>
