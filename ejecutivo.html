@@ -40,7 +40,7 @@ layout: default
       google.charts.load('current', {'packages':['bar']});
 	  google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
-
+      google.charts.setOnLoadCallback(drawChart1);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Año', 'Hombre', 'Mujer', 'Mixto'],
@@ -57,7 +57,7 @@ layout: default
           }
         };
 
-        var chart = new google.charts.Bar(document.getElementById('barras'));
+        var chart = new google.charts.Bar(document.getElementById('barras1'));
 
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
