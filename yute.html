@@ -32,9 +32,9 @@
           }
         });
 		
-		var programmaticChart  = new google.visualization.ChartWrapper({
+		var programmaticChart1  = new google.visualization.ChartWrapper({
           'chartType': 'PieChart',
-          'containerId': 'programmatic_chart_div',
+          'containerId': 'programmatic_chart_div1',
           'options': {
             'width': 300,
             'height': 300,
@@ -56,7 +56,7 @@
         ]);
 		
 
-        dashboard.bind(programmaticSlider, programmaticChart);
+        dashboard.bind(programmaticSlider, programmaticChart, programmaticChart1);
         dashboard.draw(data);
 
         changeRange = function() {
