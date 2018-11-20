@@ -32,7 +32,7 @@
           }
         });
 		
-		var programmaticChart1  = new google.visualization.ChartWrapper({
+		var programmaticChart  = new google.visualization.ChartWrapper({
           'chartType': 'PieChart',
           'containerId': 'programmatic_chart_div1',
           'options': {
@@ -78,6 +78,7 @@
         <tr>
           <td>
             <div id="programmatic_control_div" style="padding-left: 2em; min-width: 250px"></div>
+			
             <div>
               <button style="margin: 1em 1em 1em 2em" onclick="changeRange();">
                seleccionar rango [2, 5]
@@ -100,6 +101,9 @@
           </td>
           <td>
             <div id="programmatic_chart_div"></div>
+          </td>
+		  <td>
+            <div id="programmatic_chart_div1"></div>
           </td>
         </tr>
       </table>
