@@ -153,19 +153,19 @@
 
 
       chartEditor = new google.visualization.ChartEditor();
-      google.visualization.events.addListener(chartEditor, 'ok', redrawChart);
-      chartEditor.openDialog(programmaticChart, {});
+      google.visualization.events.addListener(chartEditor, 'programmatic_chart_div', redrawChart);
+      chartEditor.openDialog(data, {});
     }
 
     // On "OK" save the chart to a <div> on the page.
     function redrawChart(){
-      chartEditor.getChartWrapper().draw(document.getElementById('programmatic_chart_div'));
+      chartEditor.getChartWrapper().draw(document.getElementById('visdiv'));
     }
 
   </script>
 </head>
 <body>
-  <div id="programmatic_chart_div" style="height: 400px; width: 600px;"></div>
+  <div id="visdiv" style="height: 400px; width: 600px;"></div>
 </body>
 </html>
 </section>
