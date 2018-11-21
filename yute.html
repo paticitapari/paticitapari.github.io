@@ -111,7 +111,7 @@
     </div>
   </body>
 </html>
-lalalalalal
+
 <section>
 <html>
 <head>
@@ -132,6 +132,7 @@ lalalalalal
           'chartType': 'PieChart',
           'containerId': 'programmatic_chart_div',
           'options': {
+		  'title': 'Population Density' ,
             'width': 300,
             'height': 300,
             'legend': 'none',
@@ -153,7 +154,7 @@ lalalalalal
 
       chartEditor = new google.visualization.ChartEditor();
       google.visualization.events.addListener(chartEditor, 'ok', redrawChart);
-      chartEditor.openDialog(wrapper, {});
+      chartEditor.openDialog(programmaticChart, {});
     }
 
     // On "OK" save the chart to a <div> on the page.
@@ -164,7 +165,7 @@ lalalalalal
   </script>
 </head>
 <body>
-  <div id="programmatic_chart_div" style="height: 400px; width: 600px;"></div>
+  <div id="vis_div" style="height: 400px; width: 600px;"></div>
 </body>
 </html>
 </section>
