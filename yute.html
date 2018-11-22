@@ -4,7 +4,8 @@
     <script type="text/javascript">
 
       // Load Charts and the corechart package.
-      google.charts.load('current', {'packages':['corechart', 'table']});
+      google.charts.load('current', {'packages':['corechart']});
+	  google.charts.load('current', {'packages':['table']});
 
       // Draw the pie chart for Sarah's pizza when Charts is loaded.
       google.charts.setOnLoadCallback(drawSarahChart);
@@ -52,7 +53,7 @@
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
 
-        table.draw(data1, {showRowNumber: true, width: '100%', height: '100%'});
+        table.draw(data1, {showRowNumber: true, width: '300', height: '400'});
       }
     </script>
 	
