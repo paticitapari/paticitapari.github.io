@@ -38,29 +38,29 @@
       }
 
       // Callback that draws the pie chart for Anthony's pizza.
-      function drawAnthonyChart() {
-
-        // Create the data table for Anthony's pizza.
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
-        data.addRows([
-          ['Mushrooms', 2],
-          ['Onions', 2],
-          ['Olives', 2],
-          ['Zucchini', 0],
-          ['Pepperoni', 3]
-        ]);
-
-        // Set options for Anthony's pie chart.
-        var options = {title:'How Much Pizza Anthony Ate Last Night',
-                       width:400,
-                       height:300};
-
-        // Instantiate and draw the chart for Anthony's pizza.
-        var chart = new google.visualization.PieChart(document.getElementById('Anthony_chart_div'));
-        chart.draw(data, options);
+      function drawVisualization() {
+    var dataTable = [
+      ["Country", "Population Density"],
+      ["Indonesia", 117],
+      ["China", 137],
+      ["Nigeria", 142],
+      ["Pakistan", 198],
+      ["India", 336],
+      ["Japan", 339],
+      ["Bangladesh", 1045]
+    ];
+    google.visualization.drawChart({
+      "containerId": "visualization_div",
+      "dataTable": dataTable,
+      "refreshInterval": 5,
+      "chartType": "Table",
+      "options": {
+        "alternatingRowStyle": true,
+        "showRowNumber" : true,
       }
+    });
+  }
+   google.charts.setOnLoadCallback(drawVisualization);
     </script>
   </head>
   <body>
@@ -68,7 +68,7 @@
     <table class="columns">
       <tr>
         <td><div id="Sarah_chart_div" style="border: 1px solid #ccc"></div></td>
-        <td><div id="Anthony_chart_div" style="border: 1px solid #ccc"></div></td>
+        <td><div id="visualization_div" style="border: 1px solid #ccc"></div></td>
       </tr>
     </table>
   </body>
