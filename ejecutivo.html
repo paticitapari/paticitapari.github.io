@@ -55,13 +55,6 @@ layout: default
         var piechart = new google.visualization.PieChart(document.getElementById('piechart_div'));
         piechart.draw(data, piechart_options);
 
-        var barchart_options = {title:'Barchart: How Much Pizza I Ate Last Night',
-                       width:200,
-                       height:100,
-                       legend: 'none'
-					   };
-        var barchart = new google.visualization.BarChart(document.getElementById('barchart_div'));
-        barchart.draw(data, barchart_options);
 		
 		var table_options = {title:'tabla: How Much Pizza I Ate Last Night',
                        width:'100%',
@@ -78,7 +71,6 @@ layout: default
       <tr>
         <td><div id="piechart_div" style="border: 1px solid #ccc"></div></td>
          <td><div id="table_div" style="border: 1px solid #ccc"></div></td>  
-		 <td><div id="barchart_div" style="border: 1px solid #ccc"></div></td>
 	 </tr>
     </table>
   </body>
