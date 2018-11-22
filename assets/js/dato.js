@@ -37,7 +37,7 @@ $(document).ready(function() {
                   }
              	};
 
-            var chart = new google.charts.Line(document.getElementById('chart'));
+            var chart = new google.charts.Line(document.getElementById('chart33'));
 
             chart.draw(data, options);
         }catch(err){}
