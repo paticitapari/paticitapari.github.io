@@ -40,8 +40,8 @@
         barchart.draw(data, barchart_options);
 		
 		var table_options = {title:'tabla: How Much Pizza I Ate Last Night',
-                       width:100%,
-                       height:100%,
+                       width:'100%',
+                       height:'100%',
                        showRowNumber: true};
         var table = new google.visualization.Table(document.getElementById('table_div'));
         table.draw(data, table_options);
@@ -54,7 +54,7 @@
       <tr>
         <td><div id="piechart_div" style="border: 1px solid #ccc"></div></td>
         <td><div id="barchart_div" style="border: 1px solid #ccc"></div></td>
-        <td><div id="table_div"></div></td>    
+           
 	 </tr>
     </table>
   </body>
