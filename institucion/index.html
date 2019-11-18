@@ -4,7 +4,7 @@ layout: base
 <div class="row">
     <ul class="col-lg-2" id="filterList">
         {% assign idx = 0 %}
-        {% for institucion in site.institucions %}
+        {% for institucion in site.institucion %}
             <li {% if idx == 0 %} class="current" {% endif %} data-show="{{ institucion | first }}">
                 <a href="javascript:void(0)">
                 {{ institucion | first }}
@@ -16,7 +16,7 @@ layout: base
     </ul>
 
     {% assign instIdx = 0 %}
-    {% for institucion in site.institucions %}
+    {% for institucion in site.institucion %}
         <section class="showcase col-lg-9 col-lg-offset-1 {% if instIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ institucion | first }}">
             {% for posts in institucion %}
                 {% include post_list.html posts=posts instIdx=instIdx %}
