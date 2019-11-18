@@ -8,19 +8,19 @@ layout: base
             <li {% if idx == 0 %} class="current" {% endif %} data-show="{{ institucion | first }}">
                 <a href="javascript:void(0)">
                 {{ institucion | first }}
-                <span class="cateCnt">{{ institucion | last | size }}</span>
+                <span class="instCnt">{{ institucion | last | size }}</span>
                 </a>
             </li>
             {% assign idx = idx | plus: 1 %}
         {% endfor %}
     </ul>
 
-    {% assign cateIdx = 0 %}
+    {% assign instIdx = 0 %}
     {% for institucion in site.institucion %}
-        <section class="showcase col-lg-9 col-lg-offset-1 {% if cateIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ institucion | first }}">
+        <section class="showcase col-lg-9 col-lg-offset-1 {% if instIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ institucion | first }}">
             {% for posts in institucion %}
-                {% include post_list.html posts=posts cateIdx=cateIdx %}
-                {% assign cateIdx = cateIdx | plus: 1 %}
+                {% include post_list.html posts=posts instIdx=instIdx %}
+                {% assign instIdx = instIdx | plus: 1 %}
             {% endfor %}
         </section>
     {% endfor %}
