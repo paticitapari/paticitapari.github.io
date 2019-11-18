@@ -17,7 +17,7 @@ layout: base
 
     {% assign cateIdx = 0 %}
     {% for institucion in site.institucion %}
-        <section class="showcase col-lg-9 col-lg-offset-1 {% if cateIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ category | first }}">
+        <section class="showcase col-lg-9 col-lg-offset-1 {% if cateIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ institucion | first }}">
             {% for posts in institucion %}
                 {% include post_list.html posts=posts cateIdx=cateIdx %}
                 {% assign cateIdx = cateIdx | plus: 1 %}
