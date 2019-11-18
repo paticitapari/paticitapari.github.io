@@ -1,29 +1,43 @@
-{% include header.html %}
+{% include mode_switcher.html %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head_base.html %}
+    {% include head_post.html %}
+</head>
+
 <body>
-{% include nav.html %}
-<div id="main-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="12u">
+    {% include header.html %}
 
-			<!-- Blog -->
-				<section>
-					<header class="major">
-						<h2>{{ page.title }}</h2>
-						<p>Posted {{ page.date | date_to_string }}</p>
-					</header>
-					<div class="row">
-						<div class="8u -2u">
-							<section class="box">
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-								{{ page.content }}
-							</section>
-						</div>
-					</div>
-				</section>
+    <div class="container">
+        <div class="row">
+            <div id="markdown-container" class="col-lg-9">
+                <header>
+                    <p id="postTitle">{{ page.title }}</p>
+                    {% if page.tags %}
+                    <ul class="tags clearfix">
+                        {% for tag in page.tags %}
+                        <li><i class="fa fa-tag"></i> {{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    <p id="postMeta">Publicado el {{ page.date | date_to_string }} en la categoría <a href="{{crturl}}category/">{{ page.categories[0] }}</a></p>
 
-			</div>
-		</div>
-	</div>
-</div>
-{% include footer.html %}
+                </header>
+
+                {{ content }}
+            </div>
+
+            <div id="markdown-outline" class="col-lg-3">
+            </div>
+
+            
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript" src="{{crturl}}javascripts/markdownreader.js"></script>
+</body>
+</html>

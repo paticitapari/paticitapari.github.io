@@ -1,0 +1,58 @@
+---
+layout: base
+---
+{% include mode_switcher.html %}
+
+{% assign my = site.my %}
+<div class="row" id="about">
+    <header id="title">
+        <img src="{{ crturl }}images/udata.jpg">
+        <h1>{{ my.realName_cn }} | <small>{{ my.jobTitle | upcase }}</small></h1>
+    </header>
+
+    <section id="intro">
+        <h2>Metadatos!</h2>
+        <p>La Unidad de Datos y Micro datos Boliviana es una sección de trabajo dentro de la Fundación Aru</p>
+        <p>La Unidad de Datos con el afán de innovar y actualizar herramientas y métodos, pone a disposición del público datos de los datos de los proyectos, hasta ahora trabajados, los ''Metadatos''.</p>
+  <!--        <p></p>-->
+    </section>
+
+    <section id="skillsets">
+        <h2>Herramientas e Instrumentos</h2>
+        <ul id="frontend">
+            <i class="fa fa-tv">Páginas</i>
+            {% for skill in my.skills.frontend %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+        <ul id="backend">
+            <i class="fa fa-cog"> Lenguaje</i>
+            {% for skill in my.skills.backend %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+        <ul id="tools">
+            <i class="fa fa-wrench"> Programas</i>
+            {% for skill in my.skills.tools %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="findme">
+        <h2>Conócenos</h2>
+        <ul>
+            <li><a href="https://www.aru.org.bo/"><i class="fa fa-google"></i></a></li>
+            <li><a href="https://islp-bolivia.github.io/"><i class="fa fa-qq"></i></a></li>
+       <!--     <li><a href="{{ my.contact.pinterest }}"><i class="fa fa-pinterest"></i></a></li>-->
+        </ul>
+    </section>
+
+    <section id="action">
+        <h2>Más información</h2>
+        <a href="https://www.aru.org.bo/contacto-fundacion-aru">Dirección</a>
+ <!--       <span> 或 </span>
+        <a href="mailto:{{ udata@aru.org.bo }}">Correo electrónico</a>-->
+    </section>
+
+</div>

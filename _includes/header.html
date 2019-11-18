@@ -1,38 +1,55 @@
-<!DOCTYPE HTML>
-<!--
-	Dopetrope by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>UNICEF</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		
-		<!--aumento bea-->
-		        <!--fin aumeto bea-->
-		
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
-		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/grafico.js"></script>
-		
+<header id="l-header">
+    <div class="container">
+        <div class="row logo">
+            <div class="col-lg-7">
+                <h1>{{ site.name }}</h1>
+            </div>
 
-		<noscript>
-			<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/skel.css" />
-			<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css" />
-			<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style-desktop.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
-		
-	    <!--aumento bea-->
-		 
-		<!--fin aumeto bea-->
-		
-		
-	</head>
+
+            <div class="col-lg-5">
+                <p>Unidad de Datos</p>
+                <p>Fundación ARU</p>
+            </div>
+        </div>
+
+        <div class="row navicon">
+            <a href=""><i class="fa fa-navicon"></i></a>
+        </div>
+
+        <div class="row navbar">
+            <nav class="col-lg-8 col-md-8 col-xs-12">
+                <ul class="row">
+                    <li class="col-lg-3"><a href="{{crturl}}">INICIO</a></li>
+                    <li class="col-lg-3">
+                        <ul class="subnav">
+                            <a href="javascript:void(0)">BUSQUEDA</a>
+                            <li><a href="{{crturl}}category">CATEGORIA</a></li>
+                            <li><a href="{{crturl}}tag">PALABRA</a></li>
+                            <li><a href="{{crturl}}tag1">INSTITUCION</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-lg-3"><a href="{{crturl}}about">NOSOTROS</a></li>
+ <!--                   <li class="col-lg-3"><a href="{{crturl}}building">PLAY GROUND</a></li>-->
+                </ul>
+            </nav>
+
+            <div class="search col-lg-4 col-md-4 col-xs-12">
+                <form id="dummySearch">
+                    <label for="search"></label>
+                    <input id="search" name="serach" type="text" placeholder="Buscar en internet">
+                    <i class="fa fa-search"></i>
+                </form>
+                <script>
+                $(function(){
+                    $('#dummySearch').submit(function(e) {
+                        e.preventDefault();
+                        keyword = $('#search').val();
+                        url = 'https://www.google.com/search?q=' + keyword;
+                        location.href = url;
+                    })
+                })
+                </script>
+            </div>
+        </div>
+    </div>
+</header>

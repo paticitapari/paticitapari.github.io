@@ -1,117 +1,44 @@
-		<!-- Footer -->
-			<div id="footer-wrapper">
-				<section id="footer" class="container">
-					<div class="row">
-						<div class="8u">
-							<section>
-								<header>
-									<h2>Blandit nisl adipiscing</h2>
-								</header>
-								<ul class="dates">
-								{% for post in site.posts offset: 0 limit: 5 %}
-									<li>
-										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-										{{ post.excerpt }}
-									</li>
-								{% endfor %}
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Qué es un Repositorio?</h2>
-								</header>
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic10.jpg" alt="" /></a>
-								<p>
-									La <strong>Fundación ARU</strong> a través de la Unidad de Datos y Microdatos
-									<a href="https://www.aru.org.bo/">ARU</a> desarrolla el repositorio de la Plataforma de Datos. Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software. </p> 
-								<footer>
-									<a href="#" class="button">Ver más</a>
-								</footer>
-							</section>
-						</div>
-					</div>
-					<div class="row">
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Tempus consequat</h2>
-								</header>
-								<ul class="divided">
-									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Ipsum et phasellus</h2>
-								</header>
-								<ul class="divided">
-									<li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-									<li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-									<li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-									<li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-									<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-									<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>Contáctanos</h2>
-								</header>
-								<ul class="social"
-									<li><a class="icon fa-comments" href="https://es-la.facebook.com/unicef/"><span class="label">FaceUnicef</span></a></li>
-									<li><a class="icon fa-child" href="https://www.unicef.org/bolivia/"><span class="label">Unicef</span></a></li>
-									<li><a class="icon fa-facebook" href="https://es-la.facebook.com/FundacionARU/"><span class="label">Facebook</span></a></li>
-									<li><a class="icon fa-google-plus" href="https://www.aru.org.bo/"><span class="label">Google+</span></a></li>
-								</ul>
-								<ul class="contact">
-									<li>
-										<h3>Dirección</h3>
-										<p>
-											La Paz - Bolivia<br />
-											Avenida Arce, frente a Colegio Amor de Dios<br />
-											Casa ''IBolsa'', Nro
-										</p>
-									</li>
-									<li>
-										<h3>Correo</h3>
-										<p><a href="#">udata@aru.org.bo</a></p>
-									</li>
-									<li>
-										<h3>Teléfono</h3>
-										<p>2004491 - 2004492</p>
-									</li>
-								</ul>
-							</section>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
+{% assign my = site.my %}
+<footer id="l-footer">
+    <div class="container">
+        <div class="row">
+            <div id="contact" class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-9">
+                <h3>CONTACTOS</h3>
+                <div class="row">
+                    <address id="address" class="col-lg-6 col-md-6 col-sm-6">
+                        {{ my.contact.address.country }} {{ my.contact.address.state }} {{ my.contact.address.city }}<br>
+                        {{ my.contact.address.distribute }}, {{ my.contact.address.postcode }}<br>
+                        {{ my.contact.address.cell }}<br>
+                        {{ my.realName }}<br>
+                    </address>
 
-							<!-- Copyright -->
-								<div id="copyright">
-									<ul class="links">
-										<li>&copy; Fundación ARU. Derechos Reservados.</li><li>Unidad de Datos y Microdatos</li>
-										<li>La Paz - Bolivia</li>
-										<li> Plataforma desarrollada en Git</li>
-									</ul>
-								</div>
+                    <ul class="col-lg-6 col-md-6 col-sm-6">
+                        <li class="qq"><i class="fa fa-qq"></i> &nbsp;&nbsp;{{ my.contact.qq }}</li>
+                        <li class="email"><i class="fa fa-envelope"></i> <a href="mailto:{{ my.contact.email }}"> &nbsp;&nbsp;{{ my.contact.email }}</a></li>
+                        <li class="tel"><i class="fa fa-mobile"></i> <a href="tel:22004492">&nbsp;&nbsp; {{ my.contact.tel }}</a></li>
+                        <li class="github"><i class="fa fa-github"></i> <a href="{{ my.contact.github }}"> &nbsp;&nbsp;{{ my.contact.github }}</a></li>
+                    </ul>
+                </div>
+            </div>
 
-						</div>
-					</div>
-				</section>
-			</div>
+            <div id="rss" class="col-lg-2 col-md-2 col-sm-2">
+                    <h3>SUBSCRIBE<br>
+                    via</h3>
+                <a href="feed.xml">
+                    <i class="rss fa fa-rss-square"></i>
+                </a>
+            </div>
+        </div>
 
-	</body>
-</html>
+        <p id="legal">
+            Elaboración 2018 {{ my.displayName }} | Vía <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="http://github.com">GitHub</a> | Diseño &amp; Repositorio <a href="http://unifreak.github.io">UniFreak</a>
+        </p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{crturl}}javascripts/base.js"></script>
+
+{% if site.mode != 'dev' %}
+<!-- 百度统计 -->
+<script type="text/javascript" src="{{crturl}}javascripts/baidu_statistics.js"></script>
+{% endif %}

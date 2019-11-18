@@ -1,4 +1,65 @@
-name: Plataforma UNICEF
-description: DopeTrope template for Jekyll
-paginate: 10
-baseurl: ' '
+# highlighter: pygments
+highlighter: rouge
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# markdown: kramdown
+# kramdown:
+#     input: GFM
+#     syntax_highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 7
+paginate_path: "page:num"
+layout: post
+permalink: /:categories/:title
+excerpt_separator: "[-----]"
+
+# mode: dev
+mode: product
+url: https://datosaru.github.io/
+devurl: http://localhost:4000/
+name: Metadatos
+title: Metadatos | Aru
+description: "Metadatos ARU"
+
+my:
+    displayName: Unidad de Datos
+    realName: Metadatos
+    realName_cn: Unidad de Datos
+    jobTitle: "Encuestas"
+    contact:
+        qq: 22004491
+        email: udata@aru.org.bo
+        github: https://udata-aru.github.io/
+        qzone: Av. Arce
+        pinterest: https://www.pinterest.com/miblah/
+        tel: 22004492-22004491
+        address:
+            country: Bolivia
+            state: La Paz
+            city: Prov Murillo
+            distribute: Unidad de Datos
+            postcode: 000000
+            cell: "Fundación ARU"
+    skills:
+        frontend: ["HTML", "GITHUB", "R", "REDATAM"]
+        backend: ["PHP", "GIT", "R", "JAVA", "C++"]
+        tools: ["R", "STATA", "GITHUB", "QGIS", "LATEX", "CSPRO", "MICROSTATION", "REDATAM", "SPSS"]
+
+collections:
+    qqGroupGuide:
+        output: true
+
+defaults:
+  - scope:
+        path: ""
+        type: "posts"
+    values:
+        excerpt: "{{ page.content }} | slice: 0 300"
+  - scope:
+        path: ""
+        type: "qqGroupGuide"
+    values:
+        layout: markdownreader_bare
