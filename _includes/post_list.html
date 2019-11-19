@@ -7,10 +7,10 @@
 {% else %}
     {% for post in include.posts %}
         {% if post.tags or post.category %}
-		
+		{% if post.tags or post.institution %}
             {% include post_list_item.html %}
             {% assign displayPagi = true %}
-		
+		{% endif %}
         {% endif %}
     {% endfor %}
 {% endif %}
