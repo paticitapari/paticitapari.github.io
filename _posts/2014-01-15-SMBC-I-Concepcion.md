@@ -1,8 +1,8 @@
 ---
 title: "Sistema de Monitoreo Basado en la Comunidad en Bolivia CBMS (Comunidad-i, Concepción) - Partnership for economic Policy PEP ASIA"
 layout: post
-category: UNICEF
-institution: Censo
+category: Censo
+institution: UNICEF
 tags: [Comunidad, Pobreza]
 excerpt: "El documento presenta los  pormenores de la Iniciativa de Fundación Aru  Comunidad-i que nace como una propuesta al SMBC, cuyo propósito
 central es trabajar con y para la comunidad en la recolección y difusión

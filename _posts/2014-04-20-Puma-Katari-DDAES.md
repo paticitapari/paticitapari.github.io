@@ -1,8 +1,8 @@
 ---
 title: "Diseño, Desarrollo y Análisis de Encuestas Sociales (Puma Katari) - Instituto de Investigaciones Sociológicas Mauricio Lefebvre (IDIS-UMSA)"
 layout: post
-category: IDIS-UMSA
-institution: Encuesta
+category: Encuesta
+institution: IDIS-UMSA
 tags: [Transporte, Social]
 excerpt: "El Taller Diseño, Desarrollo y Análisis de Encuestas Sociales fue desarrollado con la temática: Igualdad de
 Oportunidades, Migración Pendular y Urbanismo"
