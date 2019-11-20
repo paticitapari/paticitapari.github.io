@@ -16,6 +16,7 @@ layout: base
     </ul>
 
     {% assign instIdx = 0 %}
+	
     {% for institution in site.categories %}
         <section class="showcase col-lg-9 col-lg-offset-1 {% if cateIdx > 0 %} hide {% else %} current {% endif %}" data-show="{{ institution | first }}">
             {% for posts in institution %}
