@@ -27,7 +27,7 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
 		
-		{% for inst in post.institution %}
+		{% for inst in post.categories %}
         <category>{{ inst | xml_escape }}</category>
         {% endfor %}
 		
